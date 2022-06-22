@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "886671449424",
+    "project_id": "lista-de-tarefas-975fe",
+    "storage_bucket": "lista-de-tarefas-975fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886671449424:android:94d6898daa90a40d672055",
+        "android_client_info": {
+          "package_name": "luiz.miguel.listadetarefas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886671449424-kuq8jk2pf8ijad3aokhlk3kjm6thk56t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "luiz.miguel.listadetarefas",
+            "certificate_hash": "c3f5b62e3364d2c7c1f40437f50bc50d83d4e413"
+          }
+        },
+        {
+          "client_id": "886671449424-cubp1t5rmobjev8n2bebtbtagoo4pe0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQBHQK4C-ZuQ9eMvTuQ2YHyZNCBkwh5KU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886671449424-cubp1t5rmobjev8n2bebtbtagoo4pe0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_principal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_adapter"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tarefaAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_baseline_border_color_24"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="Tarefa"
+            android:textColor="#5CE1E6"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/dataTarefaAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_baseline_calendar_month_24"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:paddingTop="16dp"
+            android:text="Data"
+            android:textColor="#5CE1E6"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/horaTarefaAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_baseline_access_alarm_24"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:paddingTop="16dp"
+            android:text="Hora"
+            android:textColor="#5CE1E6"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/fundo_adapter" />
+</LinearLayout>

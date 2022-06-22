@@ -1,0 +1,116 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_principal"
+    tools:context=".activity.LoginActivity">
+
+
+    <Button
+        android:id="@+id/buttonCadastrar_se"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#5CE1E6"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:onClick="abrirTelaCadastro"
+        android:text="Cadastrar-se"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="176dp"
+        android:backgroundTint="#5CE1E6"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:onClick="logarUsuario"
+        android:text="entrar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="Lista de Tarefas"
+        android:textColor="#FFFFFF"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="330dp"
+        android:layout_height="65dp"
+        android:textColorHint="#5CE1E6"
+        app:helperTextTextColor="#5CE1E6"
+        app:hintTextColor="#5CE1E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37"
+        app:placeholderTextColor="#5CE1E6"
+        app:prefixTextColor="#5CE1E6"
+        app:suffixTextColor="#5CE1E6">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editEmailLogin"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/white"
+            android:drawableEnd="@drawable/ic_baseline_email_24"
+            android:hint="Digite seu email:"
+            android:inputType="textEmailAddress"
+            android:textColor="#5CE1E6"
+            android:textColorHint="#5CE1E6"
+            android:textStyle="bold|italic" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="330dp"
+        android:layout_height="65dp"
+        android:textColorHint="#5CE1E6"
+        app:helperTextTextColor="#5CE1E6"
+        app:hintTextColor="#5CE1E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51"
+        app:placeholderTextColor="#5CE1E6"
+        app:prefixTextColor="#5CE1E6"
+        app:suffixTextColor="#5CE1E6">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editSenhaLogin"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/white"
+            android:hint="Digite sua senha:"
+            android:inputType="textWebPassword"
+            android:drawableEnd="@drawable/ic_baseline_enhanced_encryption_24"
+            android:textColor="#5CE1E6"
+            android:textColorHint="#5CE1E6"
+            android:textStyle="bold|italic" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
